@@ -22,6 +22,8 @@ public class SuggestiveDropDownExercise {
 		// driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("http://ksrtc.in/oprs-web/");
+		
+		driver.manage().window().maximize();
 
 	}
 
